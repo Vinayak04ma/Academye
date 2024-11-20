@@ -1,8 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import slide from "./data/Carousel";
 import Header from "./components/Header";
+import Carousel from './components/Carouser';
+
 
 function App() {
   
@@ -10,6 +12,7 @@ function App() {
   return (
     <>
     <Header/>
+    <Carousel data={slide.slides} />
     
     </>
   )

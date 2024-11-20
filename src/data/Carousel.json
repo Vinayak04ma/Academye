@@ -1,0 +1,22 @@
+{
+    "slides":[
+        {
+            "src":"https://img.freepik.com/premium-vector/people-learn-bengali-web-mobile-app-presentations_697410-2788.jpg?w=740",
+          "alt":"im2"
+  
+      },
+        {
+        "src":"https://img.freepik.com/free-photo/pleased-young-caucasian-geometry-teacher-wearing-glasses-sitting-desk-with-school-supplies-classroom-showing-number-fans-thumb-up-looking-front_141793-120114.jpg?t=st=1731172427~exp=1731176027~hmac=2b18766a2211185d9b51a0ead1fce64579eebc804d9b23330917996b402f53ad&w=740",
+        "alt":"im1"
+    },
+    
+    {
+          "src":"https://img.freepik.com/free-photo/seminar-designers_1098-13659.jpg?t=st=1731172474~exp=1731176074~hmac=78309067af043bc90bfb8284884908cbfb24f61cef1d386c8ccd005be70b6335&w=740"
+    },
+    {
+        "src":"https://img.freepik.com/premium-photo/science-dna-research-development-human_53876-9491.jpg?w=740",
+        "alt":"im3"
+  }
+ 
+]
+}
