@@ -5,6 +5,7 @@ import slide from "./data/Carousel";
 import Header from "./components/Header";
 import Carousel from './components/Carouser';
 import Person from "./components/Person";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Header/>
     <Carousel data={slide.slides} />
     <Person/>
+    <Footer/>
     
     </>
   )
