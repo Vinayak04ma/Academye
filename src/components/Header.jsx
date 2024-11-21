@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import {BrowserRouter as Router ,Route,Routes,Link} from 'react-router-dom';
 const Header=()=>{
     const [nav, setNav] = useState(false);
     const handleNav = () => {
@@ -24,8 +25,8 @@ const Header=()=>{
         },
         {
             id:'4',
-            name:"Courses",
-            link:"/Courses"
+            name:"Quiz",
+            link:"/quiz"
         }
     ]
     return(
@@ -36,7 +37,7 @@ const Header=()=>{
                     <div className="hidden md:flex justify-evenly  gap-[10px] w-[500px] mr-[5%]">
                         {links.map((link)=>(
                             <li className="font-semibold list-none text-[19px] cursor-pointer" key={link.key}>
-                                {link.name}
+                                <Link to={link.link}>{link.name}</Link>
                             </li>
 
                         ))}

@@ -1,11 +1,11 @@
 import { useState } from 'react'
-
+import {BrowserRouter as Router ,Route,Routes,Link} from 'react-router-dom';
 import './App.css'
-import slide from "./data/Carousel";
-import Header from "./components/Header";
-import Carousel from './components/Carouser';
-import Person from "./components/Person";
-import Footer from "./components/Footer";
+import Home from "./screens/Home";
+import Header from "./components/Header"
+import Quiz from './components/Quiz';
+
+
 
 
 function App() {
@@ -13,10 +13,15 @@ function App() {
 
   return (
     <>
-    <Header/>
-    <Carousel data={slide.slides} />
-    <Person/>
-    <Footer/>
+  
+    <Router>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/quiz" element={<Quiz/>}/>
+      </Routes>
+
+    </Router>
     
     </>
   )
