@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "JEE",
+      "icon": "FaRocket"
+    },
+    {
+      "id": 2,
+      "name": "NEET",
+      "icon": "FaHeartbeat"
+    },
+    {
+      "id": 3,
+      "name": "UPSC",
+      "icon": "FaFlagCheckered"
+    },
+    {
+      "id": 4,
+      "name": "Class 12",
+      "icon": "FaGraduationCap"
+    },
+    {
+      "id": 5,
+      "name": "CA",
+      "icon": "FaDollarSign"
+    },
+    {
+      "id": 6,
+      "name": "Bank PO",
+      "icon": "FaBuilding"
+    },
+    {
+      "id": 7,
+      "name": "SSC",
+      "icon": "FaClipboardList"
+    },
+    {
+      "id": 8,
+      "name": "IAS",
+      "icon": "FaUserTie"
+    }
+  ]

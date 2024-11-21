@@ -1,6 +1,12 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
+
 
 const Person=()=>{
+    const navigate = useNavigate();
+  const handleStartSign = () => {
+    navigate('/SignUp');
+  };
 return(
 <div className="px-4 sm:px-8 lg:px-20 flex flex-col lg:flex-row items-center mt-10 lg:mt-20">
             {/* Text Section */}
@@ -19,7 +25,7 @@ return(
                     />
                 </form>
                 <p className="text-gray-700 mb-4">We will send an OTP for verification</p>
-                <button className="bg-gray-800 text-white rounded w-full sm:w-[400px] py-2 hover:bg-gray-600">
+                <button className="bg-gray-800 text-white rounded w-full sm:w-[400px] py-2 hover:bg-gray-600"  onClick={handleStartSign} >
                     Join for free
                 </button>
             </div>
