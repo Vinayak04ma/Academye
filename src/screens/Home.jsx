@@ -4,6 +4,7 @@ import Person from "../components/Person";
 import Footer from '../components/Footer'
 import slide from "../data/Carousel";
 import QuizSection from "../components/QuizSection";
+import Fq from "../components/Fq"
 
 const Home=()=>{
     return(
@@ -11,6 +12,7 @@ const Home=()=>{
          <Carouser data={slide.slides} />
          <Person/>
          <QuizSection/>
+         <Fq/>
          <Footer/>
         </div>
 

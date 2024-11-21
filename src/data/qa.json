@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "question": "What is AcademyWallah?",
+      "answer": "AcademyWallah is an online platform that provides educational resources and courses to help learners achieve their academic goals."
+    },
+    {
+      "id": 2,
+      "question": "How can I access the courses?",
+      "answer": "You can access all the available courses through our website after registering or logging in to your account."
+    },
+    {
+      "id": 3,
+      "question": "Is there any free content available?",
+      "answer": "Yes, we offer free introductory courses and materials that you can access after signing up."
+    },
+    {
+      "id": 4,
+      "question": "How can I contact customer support?",
+      "answer": "You can contact our customer support team through the 'Contact Us' page on our website or by sending an email to support@academywallah.com."
+    },
+    {
+      "id": 5,
+      "question": "What payment methods do you accept?",
+      "answer": "We accept payments via credit/debit cards, PayPal, and bank transfers. All transactions are secure and encrypted."
+    },
+    {
+      "id": 6,
+      "question": "Can I download the course materials?",
+      "answer": "Yes, most of the course materials can be downloaded after purchasing the course."
+    },
+    {
+      "id": 7,
+      "question": "Do you offer certificates upon course completion?",
+      "answer": "Yes, upon successfully completing a course, you will receive a certificate of completion."
+    },
+    {
+      "id": 8,
+      "question": "How long do I have access to the course content?",
+      "answer": "Once you purchase a course, you will have lifetime access to its content, including updates."
+    },
+    {
+      "id": 9,
+      "question": "Can I get a refund if I don't like the course?",
+      "answer": "Yes, we offer a 30-day money-back guarantee if you are not satisfied with the course."
+    },
+    {
+      "id": 10,
+      "question": "What if I forget my login details?",
+      "answer": "If you forget your login details, you can reset your password using the 'Forgot Password' link on the login page."
+    },
+    {
+      "id": 11,
+      "question": "Are there any prerequisites for the courses?",
+      "answer": "Most of our courses are beginner-friendly. However, some advanced courses may require prior knowledge in specific areas."
+    },
+    {
+      "id": 12,
+      "question": "Do you provide mobile apps for learning?",
+      "answer": "Yes, we have mobile apps for both iOS and Android devices to help you learn on the go."
+    },
+    {
+      "id": 13,
+      "question": "How can I track my progress in the courses?",
+      "answer": "You can track your progress on your dashboard, where you can see how much of the course you've completed and your quiz results."
+    },
+    {
+      "id": 14,
+      "question": "Do I need to be online to access the courses?",
+      "answer": "You need an internet connection to access the course materials, but some courses allow offline access through the mobile app."
+    },
+    {
+      "id": 15,
+      "question": "Can I interact with instructors during the course?",
+      "answer": "Yes, most of our courses provide access to instructor-led forums or direct messaging for questions and discussions."
+    },
+    {
+      "id": 16,
+      "question": "How can I share my feedback about a course?",
+      "answer": "You can share your feedback by submitting a review on the course page or by contacting customer support."
+    }
+  ]
+  
