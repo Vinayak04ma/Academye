@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { setUserData } from '../features/signIn/userSlice';  // Import the action to set user data
+import { setUserData } from '../features/signIn/userSlice'; 
 import { useNavigate } from "react-router-dom"; 
 import Footer from "./Footer";
 
 const SignUp = () => {
   const dispatch = useDispatch();
-  const navigate = useNavigate();  // For redirecting to another page
+  const navigate = useNavigate();  
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -14,21 +14,21 @@ const SignUp = () => {
   const [age, setAge] = useState("");
   const [examGoal, setExamGoal] = useState("");
   const [targetExamYear, setTargetExamYear] = useState("");
-  const [isSubmitted, setIsSubmitted] = useState(false); // To track form submission
-  const [errorMessage, setErrorMessage] = useState(""); // To display error messages
+  const [isSubmitted, setIsSubmitted] = useState(false); 
+  const [errorMessage, setErrorMessage] = useState(""); 
 
-  // Handle form submission
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validation
+ 
     if (phone.length !== 10) {
       setErrorMessage("Phone number must be exactly 10 digits.");
       return;
     }
 
-    if (!age || isNaN(age) || age < 18) {
-      setErrorMessage("Please enter a valid age (18 or older).");
+    if (!age || isNaN(age) || age < 10) {
+      setErrorMessage("Please enter a valid age (10 or older).");
       return;
     }
 
@@ -37,16 +37,16 @@ const SignUp = () => {
       return;
     }
 
-    // Dispatch user data to Redux store
+   
     dispatch(setUserData({ name, email, phone, age, examGoal, targetExamYear }));
 
-    // Show success message
+    
     setIsSubmitted(true);
 
     // Redirect to home after a delay
     setTimeout(() => {
       navigate("/"); // Redirect to home or another page
-    }, 3000); // Redirect after 3 seconds
+    }, 1000); // Redirect after 3 seconds
   };
 
   return (

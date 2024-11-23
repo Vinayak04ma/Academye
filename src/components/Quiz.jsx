@@ -1,32 +1,25 @@
-
-
 import React, { useState, useEffect } from 'react';
-import quizData from '../data/q.json';  // Import the quiz data
+import quizData from '../data/q.json'; 
+import Footer from "./Footer"
 
 const Quiz = () => {
-  const [displayCount, setDisplayCount] = useState(20); // Start by showing 20 quizzes (4 rows of 5 columns)
   const [quizzes, setQuizzes] = useState([]);
   const [attemptedQuizzes, setAttemptedQuizzes] = useState([]);
   const [favoriteQuizzes, setFavoriteQuizzes] = useState([]);
-  const [activeTab, setActiveTab] = useState('all'); // State for managing tabs (all, attempted, favorite)
+  const [activeTab, setActiveTab] = useState('all'); 
 
   // Load quizzes data from q.json
   useEffect(() => {
-    setQuizzes(quizData);  // Set quiz data into state
+    setQuizzes(quizData);  
   }, []);
 
-  // Show more quizzes when the "See More" button is clicked
-  const handleSeeMore = () => {
-    setDisplayCount(displayCount + 20); // Increase the number of displayed quizzes by 20 (4 more rows)
-  };
-
-  // Handle quiz start (add quiz to attempted list)
+  // add quiz to attempted list
   const startQuiz = (quiz) => {
     if (!attemptedQuizzes.some((attempted) => attempted.id === quiz.id)) {
       setAttemptedQuizzes((prev) => [...prev, quiz]);
     }
   };
-
+       
   // Handle favorite (toggle quiz in favorite list)
   const toggleFavorite = (quiz) => {
     if (favoriteQuizzes.some((fav) => fav.id === quiz.id)) {
@@ -44,17 +37,18 @@ const Quiz = () => {
       case 'favorite':
         return favoriteQuizzes.length > 0 ? favoriteQuizzes : [{ name: 'No Favorite Quizzes' }];
       default:
-        return quizzes; // All quizzes
+        return quizzes; 
     }
   };
 
   return (
+    <div>
     <section className="p-8 bg-gray-100">
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
         Choose Your Quiz
       </h1>
 
-      {/* Tab Buttons */}
+     
       <div className="flex justify-center space-x-6 mb-6">
         <button
           className={`text-lg ${activeTab === 'all' ? 'text-blue-500 font-semibold' : 'text-gray-600'}`}
@@ -116,31 +110,10 @@ const Quiz = () => {
           </div>
         ))}
       </div>
-
-      {/* "See More" Button */}
-      {displayCount < quizzes.length && (
-        <div className="text-center mt-8">
-          <button
-            className="bg-blue-500 text-white px-6 py-2 rounded-md text-lg font-semibold hover:bg-blue-600 transition duration-300"
-            onClick={handleSeeMore}
-          >
-            See More
-          </button>
-        </div>
-      )}
-
-      {/* Message for no quizzes in a section */}
-      {getQuizzesToDisplay().length === 1 && getQuizzesToDisplay()[0].name === 'No Attempted Quizzes' && activeTab === 'attempted' && (
-        <div className="text-center mt-6 text-gray-500">
-          <p>No quizzes have been attempted yet.</p>
-        </div>
-      )}
-      {getQuizzesToDisplay().length === 1 && getQuizzesToDisplay()[0].name === 'No Favorite Quizzes' && activeTab === 'favorite' && (
-        <div className="text-center mt-6 text-gray-500">
-          <p>No quizzes have been marked as favorites yet.</p>
-        </div>
-      )}
+    
     </section>
+    <Footer/>
+    </div>
   );
 };
 

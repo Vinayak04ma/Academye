@@ -6,7 +6,7 @@ const initialState = {
   age: '',
   examGoal: '',
   targetExamYear: '',
-  isSignedUp: false, // Add isSignedUp to track sign-up status
+  isSignedUp: false, 
 };
 
 const userSlice = createSlice({
@@ -20,7 +20,7 @@ const userSlice = createSlice({
       state.age = action.payload.age;
       state.examGoal = action.payload.examGoal;
       state.targetExamYear = action.payload.targetExamYear;
-      state.isSignedUp = true; // Mark the user as signed up
+      state.isSignedUp = true; 
     },
     clearUserData: (state) => {
       state.name = '';
@@ -29,7 +29,7 @@ const userSlice = createSlice({
       state.age = '';
       state.examGoal = '';
       state.targetExamYear = '';
-      state.isSignedUp = false; // Reset the signed-up status
+      state.isSignedUp = false; 
     },
   },
 });

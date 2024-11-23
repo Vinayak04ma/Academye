@@ -16,7 +16,7 @@ const Carousel = ({ data }) => {
     useEffect(() => {
         const interval = setInterval(() => {
             nextSlide();
-        }, 3000); // Adjust the time (3000 ms = 3 seconds) as needed
+        }, 3000); // Adjust the time (3000 ms ) as needed
 
         return () => clearInterval(interval); // Cleanup on unmount or when a user interacts
     }, [slide]); // Dependency array ensures the effect runs when `slide` changes
