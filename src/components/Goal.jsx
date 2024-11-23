@@ -16,20 +16,31 @@ const iconMap = {
 
 const Goal = () => {
   return (
-    <div className="py-16 bg-gray-50">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-semibold text-gray-900 mb-12">Select Your Goal</h2>
+    <div className="py-16 bg-white">
+      <div className="max-w-6xl mx-auto ">
+        <h1 className="text-4xl font-bold text-gray-700 mb-4 px-[13px]">Select Your Goal /exam</h1>
+        <p className="mb-6 text-xl text-gray-700 px-[13px]"><span className="text-blue-500">200+</span> exams available for your preparation</p>
+        <input
+              type="text"
+              id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+              placeholder="   Type the exam/goal you are preparing for"
+              className="mt-1 mb-12 mx-[15px] py-2 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+        <h2 className="text-3xl font-semibold text-gray-700 mb-12 px-[13px]">Popular Goal</h2>
         {/* Responsive Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className=" text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {goalsData.map((goal) => (
             <div
               key={goal.id}
-              className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 duration-300 cursor-pointer"
+              className="bg-white m-2 px-[60px] py-[80px] rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 duration-300 cursor-pointer"
             >
               <div className="flex justify-center mb-4">
                 {iconMap[goal.icon]}
               </div>
-              <h3 className="text-xl font-semibold text-gray-900">{goal.name}</h3>
+              <h3 className="text-xl font-semibold text-gray-600">{goal.name}</h3>
             </div>
           ))}
         </div>

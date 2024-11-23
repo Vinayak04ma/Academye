@@ -1,42 +1,42 @@
 [
     {
       "id": 1,
-      "name": "JEE",
+      "name": "IIT JEE",
       "icon": "FaRocket"
     },
     {
       "id": 2,
-      "name": "NEET",
+      "name": "NEET UG",
       "icon": "FaHeartbeat"
     },
     {
       "id": 3,
-      "name": "UPSC",
+      "name": "UPSC CSE GS",
       "icon": "FaFlagCheckered"
     },
     {
       "id": 4,
-      "name": "Class 12",
+      "name": "CBSE Class 12",
       "icon": "FaGraduationCap"
     },
     {
       "id": 5,
-      "name": "CA",
+      "name": "CA Foundation",
       "icon": "FaDollarSign"
     },
     {
       "id": 6,
-      "name": "Bank PO",
+      "name": "Bank EXAM",
       "icon": "FaBuilding"
     },
     {
       "id": 7,
-      "name": "SSC",
+      "name": "SSC JE & state AE exam",
       "icon": "FaClipboardList"
     },
     {
       "id": 8,
-      "name": "IAS",
+      "name": "CAT & other MBA exam",
       "icon": "FaUserTie"
     }
   ]

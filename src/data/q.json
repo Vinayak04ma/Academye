@@ -141,248 +141,145 @@
     },
     {
       "id": 21,
-      "name": "Travel Quiz",
-      "subname": "Famous Landmarks",
-      "questions": 20,
-      "image": "https://via.placeholder.com/300x200?text=Travel+Quiz"
+      "name": "Math Quiz",
+      "subname": "Algebra and Geometry",
+      "questions": 25,
+      "image": "https://img.freepik.com/free-vector/math-background_23-2148145792.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
-      "id": 22,
-      "name": "Food Quiz",
-      "subname": "World Cuisines",
-      "questions": 15,
-      "image": "https://via.placeholder.com/300x200?text=Food+Quiz"
+      "id": 222,
+      "name": "History Quiz",
+      "subname": "World War II",
+      "questions": 30,
+      "image": "https://img.freepik.com/free-photo/composed-book-school-supplies_23-2147654593.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 23,
-      "name": "Language Quiz",
-      "subname": "English and Spanish",
-      "questions": 18,
-      "image": "https://via.placeholder.com/300x200?text=Language+Quiz"
+      "name": "Science Quiz",
+      "subname": "Physics and Chemistry",
+      "questions": 20,
+      "image": "https://img.freepik.com/free-vector/hand-drawn-science-education-background_23-2148499325.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 24,
-      "name": "Math Puzzles Quiz",
-      "subname": "Riddles and Logic Puzzles",
-      "questions": 12,
-      "image": "https://via.placeholder.com/300x200?text=Math+Puzzles+Quiz"
+      "name": "English Quiz",
+      "subname": "Grammar and Vocabulary",
+      "questions": 15,
+      "image": "https://img.freepik.com/free-vector/word-design-school-subject-english_1308-6065.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 25,
-      "name": "Trivia Quiz",
-      "subname": "General Knowledge",
-      "questions": 50,
-      "image": "https://via.placeholder.com/300x200?text=Trivia+Quiz"
+      "name": "Geography Quiz",
+      "subname": "Countries and Capitals",
+      "questions": 20,
+      "image": "https://img.freepik.com/free-vector/geopraphy-concept-with-retro-cartoon-school-lesson-set_1284-7502.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 26,
-      "name": "Space Quiz",
-      "subname": "Astronomy and Planets",
-      "questions": 30,
-      "image": "https://via.placeholder.com/300x200?text=Space+Quiz"
+      "name": "Literature Quiz",
+      "subname": "Famous Authors",
+      "questions": 18,
+      "image": "https://img.freepik.com/free-vector/watercolor-literature-illustration_52683-81536.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 27,
-      "name": "Fashion Quiz",
-      "subname": "Trends and Designers",
-      "questions": 20,
-      "image": "https://via.placeholder.com/300x200?text=Fashion+Quiz"
+      "name": "Computer Science Quiz",
+      "subname": "Programming Languages",
+      "questions": 28,
+      "image": "https://img.freepik.com/free-vector/online-education-concept_52683-8290.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 28,
-      "name": "Animal Quiz",
-      "subname": "Species and Habitats",
-      "questions": 22,
-      "image": "https://via.placeholder.com/300x200?text=Animal+Quiz"
+      "name": "Music Quiz",
+      "subname": "Genres and History",
+      "questions": 12,
+      "image": "https://img.freepik.com/free-photo/volumetric-musical-background-with-treble-clef-notes-generative-ai_169016-29576.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 29,
-      "name": "Architecture Quiz",
-      "subname": "Famous Buildings and Styles",
-      "questions": 18,
-      "image": "https://via.placeholder.com/300x200?text=Architecture+Quiz"
+      "name": "Art Quiz",
+      "subname": "Famous Paintings and Artists",
+      "questions": 25,
+      "image": "https://img.freepik.com/free-photo/parakeet-platycercus-barnardii-illustrated-by-elizabeth-gould_53876-65557.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 30,
-      "name": "Mythology Quiz",
-      "subname": "Greek and Roman Mythology",
-      "questions": 25,
-      "image": "https://via.placeholder.com/300x200?text=Mythology+Quiz"
+      "name": "Sports Quiz",
+      "subname": "Football and Basketball",
+      "questions": 30,
+      "image": "https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 31,
-      "name": "Movie Quiz",
-      "subname": "Actors and Films",
-      "questions": 40,
-      "image": "https://via.placeholder.com/300x200?text=Movie+Quiz"
+      "name": "Physics Quiz",
+      "subname": "Mechanics and Thermodynamics",
+      "questions": 35,
+      "image": "https://img.freepik.com/free-vector/background-about-physics_1284-698.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 32,
-      "name": "Literature Quiz",
-      "subname": "Classic and Modern Works",
+      "name": "Chemistry Quiz",
+      "subname": "Organic and Inorganic",
       "questions": 28,
-      "image": "https://via.placeholder.com/300x200?text=Literature+Quiz"
+      "image": "https://img.freepik.com/free-vector/education-concept-sketch_1284-7335.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 33,
-      "name": "Gaming Quiz",
-      "subname": "Popular Video Games",
-      "questions": 35,
-      "image": "https://via.placeholder.com/300x200?text=Gaming+Quiz"
+      "name": "Biology Quiz",
+      "subname": "Human Anatomy",
+      "questions": 22,
+      "image": "https://img.freepik.com/free-photo/biologist-scientific-doctor-examining-green-sapling-while-typing-keyboard-ecology-expertise_482257-2051.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 34,
-      "name": "Weather Quiz",
-      "subname": "Climate and Forecasting",
-      "questions": 22,
-      "image": "https://via.placeholder.com/300x200?text=Weather+Quiz"
+      "name": "Economics Quiz",
+      "subname": "Micro and Macro Economics",
+      "questions": 26,
+      "image": "https://img.freepik.com/free-photo/top-view-economic-written-spiral-notepad-lupa-calculator-phone-ruler-dark_140725-145633.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 35,
-      "name": "Technology Quiz",
-      "subname": "Gadgets and Innovations",
-      "questions": 25,
-      "image": "https://via.placeholder.com/300x200?text=Technology+Quiz"
+      "name": "Philosophy Quiz",
+      "subname": "Ethics and Metaphysics",
+      "questions": 18,
+      "image": "https://img.freepik.com/free-photo/virtual-realistic-communication-futuristic-illustrations-digital-painting_456031-45.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 36,
-      "name": "Pharmacy Quiz",
-      "subname": "Medicines and Treatments",
-      "questions": 18,
-      "image": "https://via.placeholder.com/300x200?text=Pharmacy+Quiz"
+      "name": "Political Science Quiz",
+      "subname": "Democracy and Governance",
+      "questions": 20,
+      "image": "https://img.freepik.com/free-vector/politicians-constitution-oath-tv-program-interview-isometric-flowchart-gray-round_1284-33100.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 37,
-      "name": "Travel History Quiz",
-      "subname": "Ancient Civilizations",
-      "questions": 18,
-      "image": "https://via.placeholder.com/300x200?text=Travel+History+Quiz"
+      "name": "Psychology Quiz",
+      "subname": "Human Behavior and Emotions",
+      "questions": 22,
+      "image": "https://img.freepik.com/free-vector/tiny-people-beautiful-flower-garden-inside-female-head-isolated-flat-illustration_74855-11098.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 38,
-      "name": "Nature Quiz",
-      "subname": "Animals and Plants",
-      "questions": 28,
-      "image": "https://via.placeholder.com/300x200?text=Nature+Quiz"
+      "name": "Health Quiz",
+      "subname": "Healthy Lifestyle and Nutrition",
+      "questions": 18,
+      "image": "https://img.freepik.com/free-vector/healthy-people-carrying-different-icons_53876-66139.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 39,
-      "name": "Space Exploration Quiz",
-      "subname": "Space Missions and Discoveries",
+      "name": "Business Quiz",
+      "subname": "Marketing and Strategy",
       "questions": 30,
-      "image": "https://via.placeholder.com/300x200?text=Space+Exploration+Quiz"
+      "image": "https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     },
     {
       "id": 40,
-      "name": "Health and Fitness Quiz",
-      "subname": "Exercise and Well-being",
+      "name": "Technology Quiz",
+      "subname": "Emerging Technologies",
       "questions": 25,
-      "image": "https://via.placeholder.com/300x200?text=Health+Fitness+Quiz"
-    },
-    {
-      "id": 41,
-      "name": "Technology Trends Quiz",
-      "subname": "New Innovations and Devices",
-      "questions": 20,
-      "image": "https://via.placeholder.com/300x200?text=Technology+Trends+Quiz"
-    },
-    {
-      "id": 42,
-      "name": "World Leaders Quiz",
-      "subname": "Famous Political Figures",
-      "questions": 24,
-      "image": "https://via.placeholder.com/300x200?text=World+Leaders+Quiz"
-    },
-    {
-      "id": 43,
-      "name": "Global Events Quiz",
-      "subname": "Major World Events",
-      "questions": 30,
-      "image": "https://via.placeholder.com/300x200?text=Global+Events+Quiz"
-    },
-    {
-      "id": 44,
-      "name": "Filmography Quiz",
-      "subname": "Directors and Filmographies",
-      "questions": 22,
-      "image": "https://via.placeholder.com/300x200?text=Filmography+Quiz"
-    },
-    {
-      "id": 45,
-      "name": "Inventions Quiz",
-      "subname": "History of Inventions",
-      "questions": 18,
-      "image": "https://via.placeholder.com/300x200?text=Inventions+Quiz"
-    },
-    {
-      "id": 46,
-      "name": "Tech Giants Quiz",
-      "subname": "Companies and Founders",
-      "questions": 28,
-      "image": "https://via.placeholder.com/300x200?text=Tech+Giants+Quiz"
-    },
-    {
-      "id": 47,
-      "name": "Music Genres Quiz",
-      "subname": "Genres and Artists",
-      "questions": 25,
-      "image": "https://via.placeholder.com/300x200?text=Music+Genres+Quiz"
-    },
-    {
-      "id": 48,
-      "name": "Space Science Quiz",
-      "subname": "Astronomy and Physics",
-      "questions": 22,
-      "image": "https://via.placeholder.com/300x200?text=Space+Science+Quiz"
-    },
-    {
-      "id": 49,
-      "name": "Dinosaur Quiz",
-      "subname": "Prehistoric Animals",
-      "questions": 20,
-      "image": "https://via.placeholder.com/300x200?text=Dinosaur+Quiz"
-    },
-    {
-      "id": 50,
-      "name": "Innovative Minds Quiz",
-      "subname": "Creative Thinkers",
-      "questions": 18,
-      "image": "https://via.placeholder.com/300x200?text=Innovative+Minds+Quiz"
-    },
-    {
-      "id": 51,
-      "name": "Travel Destinations Quiz",
-      "subname": "Top Travel Spots",
-      "questions": 28,
-      "image": "https://via.placeholder.com/300x200?text=Travel+Destinations+Quiz"
-    },
-    {
-      "id": 52,
-      "name": "Science Fiction Quiz",
-      "subname": "Movies and Books",
-      "questions": 25,
-      "image": "https://via.placeholder.com/300x200?text=Science+Fiction+Quiz"
-    },
-    {
-      "id": 53,
-      "name": "Wildlife Quiz",
-      "subname": "Nature and Conservation",
-      "questions": 30,
-      "image": "https://via.placeholder.com/300x200?text=Wildlife+Quiz"
-    },
-    {
-      "id": 54,
-      "name": "Fitness Quiz",
-      "subname": "Exercise and Diet",
-      "questions": 20,
-      "image": "https://via.placeholder.com/300x200?text=Fitness+Quiz"
-    },
-    {
-      "id": 55,
-      "name": "Art History Quiz",
-      "subname": "Famous Art Movements",
-      "questions": 24,
-      "image": "https://via.placeholder.com/300x200?text=Art+History+Quiz"
+      "image": "https://img.freepik.com/free-photo/ai-nuclear-energy-background-future-innovation-disruptive-technology_53876-129783.jpg?ga=GA1.1.1470743990.1732160957&semt=ais_hybrid"
     }
+    
+    
   ]
   

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "John Doe",
+    "exam": "JEE Advanced",
+    "rank": "1",
+    "year": "2023",
+    "score": "100%",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "name": "Jane Smith",
+    "exam": "NEET UG",
+    "rank": "2",
+    "year": "2023",
+    "score": "98.5%",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg"
+  },
+  {
+    "name": "Robert Brown",
+    "exam": "JEE Main",
+    "rank": "3",
+    "year": "2023",
+    "score": "99.5%",
+    "image": "https://randomuser.me/api/portraits/men/2.jpg"
+  },
+  {
+    "name": "Alice Green",
+    "exam": "CAT",
+    "rank": "1",
+    "year": "2023",
+    "score": "98.9%",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "name": "Michael White",
+    "exam": "GATE",
+    "rank": "1",
+    "year": "2023",
+    "score": "95%",
+    "image": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "name": "Sophia Harris",
+    "exam": "XAT",
+    "rank": "2",
+    "year": "2023",
+    "score": "94.2%",
+    "image": "https://randomuser.me/api/portraits/women/3.jpg"
+  },
+  {
+    "name": "David Lee",
+    "exam": "CLAT",
+    "rank": "1",
+    "year": "2023",
+    "score": "98%",
+    "image": "https://randomuser.me/api/portraits/men/4.jpg"
+  },
+  {
+    "name": "Emma Clark",
+    "exam": "UPSC Civil Services",
+    "rank": "5",
+    "year": "2023",
+    "score": "85%",
+    "image": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "name": "Oliver King",
+    "exam": "Bank PO",
+    "rank": "1",
+    "year": "2023",
+    "score": "98.5%",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "name": "Lily Scott",
+    "exam": "SSC CGL",
+    "rank": "2",
+    "year": "2023",
+    "score": "90%",
+    "image": "https://randomuser.me/api/portraits/women/5.jpg"
+  }
+]
