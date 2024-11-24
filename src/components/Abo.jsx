@@ -22,7 +22,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      {/* Section 2: Our Services (Dark Gray Background) */}
+      {/* Section 2: Our Services */}
       <div className="bg-gray-800 text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h3 className="text-3xl font-semibold">Our Services</h3>
