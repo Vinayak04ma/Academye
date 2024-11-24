@@ -19,12 +19,12 @@ const Carousel = ({ data }) => {
         }, 3000); // Adjust the time (3000 ms ) as needed
 
         return () => clearInterval(interval); // Cleanup on unmount or when a user interacts
-    }, [slide]); // Dependency array ensures the effect runs when `slide` changes
+    }, [slide]); 
 
-    // Function to handle manual slide change and reset the timer
+    
     const handleManualSlideChange = (index) => {
         setSlide(index);
-        clearInterval(); // This resets any ongoing interval
+        clearInterval(); 
     };
 
     return (
@@ -33,7 +33,7 @@ const Carousel = ({ data }) => {
                 <BsArrowLeftCircleFill 
                     onClick={() => {
                         prevSlide();
-                        clearInterval(); // Reset interval on manual click
+                        clearInterval(); 
                     }} 
                     className="absolute w-[2rem] h-[2rem] left-[1rem] cursor-pointer"
                 />
@@ -48,7 +48,7 @@ const Carousel = ({ data }) => {
                 <BsArrowRightCircleFill 
                     onClick={() => {
                         nextSlide();
-                        clearInterval(); // Reset interval on manual click
+                        clearInterval(); 
                     }} 
                     className="absolute w-[2rem] h-[2rem] right-[1rem] cursor-pointer"
                 />

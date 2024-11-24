@@ -17,10 +17,10 @@ const Footer = () => {
                 <div>
                     <h4 className="text-lg font-semibold mb-2">Useful Links</h4>
                     <ul>
-                        <li className="mb-1"><a href="/courses" className="hover:underline">Courses</a></li>
-                        <li className="mb-1"><a href="/pricing" className="hover:underline">Pricing</a></li>
-                        <li className="mb-1"><a href="/blog" className="hover:underline">Blog</a></li>
-                        <li className="mb-1"><a href="/contact" className="hover:underline">Contact Us</a></li>
+                        <li className="mb-1">Courses</li>
+                        <li className="mb-1">Pricing</li>
+                        <li className="mb-1">Blog</li>
+                        <li className="mb-1">Contact Us</li>
                     </ul>
                 </div>
 
@@ -47,10 +47,10 @@ const Footer = () => {
                 <div>
                     <h4 className="text-lg font-semibold mb-2">Support</h4>
                     <ul>
-                        <li className="mb-1"><a href="/help" className="hover:underline">Help Center</a></li>
-                        <li className="mb-1"><a href="/faq" className="hover:underline">FAQ</a></li>
-                        <li className="mb-1"><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
-                        <li className="mb-1"><a href="/terms" className="hover:underline">Terms of Service</a></li>
+                        <li className="mb-1">Help Center</li>
+                        <li className="mb-1">FAQ</li>
+                        <li className="mb-1">Privacy Policy</li>
+                        <li className="mb-1">Terms of Service</li>
                     </ul>
                 </div>
             </div>
