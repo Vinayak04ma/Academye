@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import faqData from "../data/qa.json"; 
+import { useDispatch, useSelector } from 'react-redux';
 
 const Fq = () => {
   const [openIndex, setOpenIndex] = useState(null); 
   const [showAll, setShowAll] = useState(false); 
+  const theme = useSelector((state) => state.theme.theme);
  
   const toggleAnswer = (index) => {
     setOpenIndex(openIndex === index ? null : index); 
@@ -18,9 +20,9 @@ const Fq = () => {
   const displayedFAQs = showAll ? faqData : faqData.slice(0, 4); 
 
   return (
-    <div className="px-4 py-16 sm:px-6 lg:px-8 bg-gray-100">
+    <div className={`px-4 py-16 sm:px-6 lg:px-8 {theme==='light'?'bg-gray-100':'bg-black'} `}>
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-semibold text-center text-gray-900 mb-8">
+        <h2 className={`text-3xl font-semibold text-center ${theme==='light'?'text-gray-900':'text-white'}  mb-8`}>
           Frequently Asked Questions
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">

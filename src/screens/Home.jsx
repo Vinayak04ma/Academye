@@ -10,11 +10,13 @@ import Topper from '../components/Topper';
 import Offline from '../components/Offline';
 import ServiceCards from '../components/ServiceCards'
 import Refer from '../components/Refer'
+import { useSelector } from "react-redux"; 
 
 
 const Home=()=>{
+    const theme = useSelector((state) => state.theme.theme);
     return(
-        <div>
+        <div className={` ${theme==='light'? "bg-white text-black":"bg-black text-white"}`}>
          <Carouser data={slide.slides} />
          <Person/>
          <Goal/>

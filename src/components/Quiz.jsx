@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import quizData from '../data/q.json'; 
 import Footer from "./Footer"
+import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 const Quiz = () => {
   const [quizzes, setQuizzes] = useState([]);
   const [attemptedQuizzes, setAttemptedQuizzes] = useState([]);
   const [favoriteQuizzes, setFavoriteQuizzes] = useState([]);
-  const [activeTab, setActiveTab] = useState('all'); 
+  const [activeTab, setActiveTab] = useState('all');
+  const navigate = useNavigate();
+  const theme = useSelector((state) => state.theme.theme); 
 
   // Load quizzes data from q.json
   useEffect(() => {
@@ -17,7 +21,9 @@ const Quiz = () => {
   const startQuiz = (quiz) => {
     if (!attemptedQuizzes.some((attempted) => attempted.id === quiz.id)) {
       setAttemptedQuizzes((prev) => [...prev, quiz]);
+      navigate('/liveq');
     }
+    navigate('/liveq');
   };
        
   // Handle favorite (toggle quiz in favorite list)
@@ -43,8 +49,8 @@ const Quiz = () => {
 
   return (
     <div>
-    <section className="p-8 bg-gray-100">
-      <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
+    <section className={`p-8 ${theme==='light'?'bg-gray-100':'bg-gray-900'}`}>
+      <h1 className={`text-4xl font-bold text-center ${theme==='light'?'text-gray-800':'text-white'} mb-8`}>
         Choose Your Quiz
       </h1>
 
@@ -75,7 +81,7 @@ const Quiz = () => {
         {getQuizzesToDisplay().map((quiz) => (
           <div
             key={quiz.id}
-            className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300"
+            className={` ${theme==='light'?'bg-white':'bg-black'} rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300`}
           >
             <img
               src={quiz.image}
@@ -83,9 +89,9 @@ const Quiz = () => {
               className="w-full h-36 object-cover"
             />
             <div className="p-4">
-              <h2 className="text-xl font-semibold text-gray-800">{quiz.name}</h2>
-              <p className="text-sm text-gray-600">{quiz.subname}</p>
-              <p className="text-sm text-gray-500 mt-2">Questions: {quiz.questions}</p>
+              <h2 className={`text-xl font-semibold ${theme==='light'?'text-gray-800':'text-white'} `}>{quiz.name}</h2>
+              <p className={`text-sm  ${theme==='light'?'text-gray-600':'text-white'} `}>{quiz.subname}</p>
+              <p className={`text-sm   ${theme==='light'?'text-gray-500':'text-white'} mt-2`}>Questions: {quiz.questions}</p>
 
               {/* Action Buttons */}
               <div className="flex justify-between items-center mt-4">

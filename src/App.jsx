@@ -10,11 +10,15 @@ import { Provider } from 'react-redux';
 import store from './app/store'; 
 import Profile from "./components/Profile"; 
 import Mentors from "./screens/Mentors"
+import QuizeSS from "./components/quiz/QuizSS";
+
+
 
 function App() {
+
   return (
     <Provider store={store}>  
-      <Router>
+      <Router >
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,9 +27,12 @@ function App() {
           <Route path="/profile" element={<Profile />} /> 
           <Route path="/About" element={<About />} /> 
           <Route path="/Mentors" element={<Mentors />} /> 
+          <Route path='/liveq' element={<QuizeSS/>}/>
         </Routes>
       </Router>
     </Provider>
+
+ 
   );
 }
 
